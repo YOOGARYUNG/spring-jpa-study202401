@@ -5,7 +5,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.*;
 
-@Setter @Getter @ToString
+@Setter @Getter
+@ToString
 @EqualsAndHashCode(of = "id")
 @NoArgsConstructor
 @AllArgsConstructor
